@@ -1,0 +1,22 @@
+# 天朝治下的和平
+pax_china_decision = {
+	empire = celestial_empire
+	trigger = {
+		crown_land_share = 65
+		full_idea_group = court_ideas
+		empire_of_china_num_reforms_passed = 10
+	}
+	emperor = {
+		adm_advisor_cost = -0.1
+		dip_advisor_cost = -0.1
+		mil_advisor_cost = -0.1
+		imperial_mandate = 0.2
+	}
+	member = {
+		stability_cost_to_declare_war = 6
+		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = 1
+		war_exhaustion = -0.1
+	}
+}
